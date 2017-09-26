@@ -1,0 +1,7 @@
+# Version 1.0.0
+
+FROM nothingdocker/centos-systemd
+
+RUN yum install -y java-1.8.0-openjdk \
+ && export JAVA_HOME=/usr/java;
+
